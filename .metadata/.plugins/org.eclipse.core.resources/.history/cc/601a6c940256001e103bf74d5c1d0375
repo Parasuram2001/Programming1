@@ -1,0 +1,28 @@
+package pro;
+import java.util.Scanner;
+public class notcompletedcalculator {
+
+	public static void main(String[] args) {
+		Object system;
+		// TODO Auto-generated method stubin 
+		
+		int no=1;
+		while(no!=0)
+		{
+			Scanner sc=new Scanner(System.in);
+			System.out.println("enter the natural number a1: ");
+			int a1=sc.nextInt();
+			System.out.println("enter the natural number b1: ");
+			int b1=sc.nextInt();
+			int sum=a1+b1;
+			System.out.println("the sum of two numbers is "+sum);
+			String answer="yes/no";
+			System.out.println("do you want to perform other operations? "+answer);
+			System.out.println("which operation do you want to peform? Multiplication Subtraction Divison ");
+			
+			
+		}
+
+	}
+
+}

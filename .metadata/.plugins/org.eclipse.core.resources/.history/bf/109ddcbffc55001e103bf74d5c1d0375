@@ -1,0 +1,22 @@
+package pro;
+import java.util.Scanner;
+public class while1 {
+
+	public static void main(String[] args) {
+		Object system;
+		// TODO Auto-generated method stubin 
+		
+		int no=1;
+		while(no!=0)
+		{
+			Scanner sc=new Scanner(System.in);
+			System.out.println("enter the natural number a1: ");
+			int a1=sc.nextInt();
+			System.out.println("enter the natural number b1: ");
+			int b1=sc.nextInt();
+			int sum=a1+b1;
+		}
+
+	}
+
+}

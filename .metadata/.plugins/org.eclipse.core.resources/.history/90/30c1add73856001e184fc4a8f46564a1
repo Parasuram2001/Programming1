@@ -1,0 +1,31 @@
+package replace;
+
+public class sum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int no1=756;
+		int no2=832;
+		int sum1=0;
+		int sum2=0;
+		while(no1!=0)
+		{
+			int rem=no1%10;
+			sum1=sum1+rem;
+			no1=no1/10;
+			
+		}
+		System.out.println(sum1);
+		
+		while(no2!=0)
+		{
+			int rem=no2%10;
+			sum2=sum2+rem;
+			no2=no2/10;
+			
+		}
+		System.out.println(sum2);
+
+	}
+
+}

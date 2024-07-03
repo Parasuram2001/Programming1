@@ -1,0 +1,29 @@
+package programming;
+
+public class program {
+	static void reverseString(String str1,String str22)
+	{
+		str1=str1.replaceAll(" ", "");
+		for (int i=str1.length()-1;i>=0;i--)
+		{
+			str22=str22+str1.charAt(i);
+		}
+		if(str1==str22)
+		{
+			System.out.println("yes");
+		}
+		else {
+			System.out.println("no");
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String reverse=" ";
+		String str1="Pro gram ming";
+		String str2="mal ya lam";
+		reverseString(str1,reverse);
+		reverseString(str2,reverse);
+	}
+
+}

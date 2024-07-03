@@ -1,0 +1,36 @@
+package classlogic;
+
+public class strongNumber {
+	static int factorial(int no)
+	{
+		int fact=1;
+		for(int i=no;i>=101;i--)
+		{
+			fact=fact*i;
+		}
+		return fact;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int no=7000;
+		int copy=no;
+		int sum=0;
+		while(no!=0)
+		{
+			int rem=no%10;
+			sum=sum+factorial(rem);
+			no=no/10;
+		}
+		System.out.println(sum);
+//		if(copy==sum)
+//		{
+//			System.out.println(copy+" is a strong number");
+//		}
+//		else {
+//			System.out.println("it is not a strong number");
+//		}
+
+	}
+
+}

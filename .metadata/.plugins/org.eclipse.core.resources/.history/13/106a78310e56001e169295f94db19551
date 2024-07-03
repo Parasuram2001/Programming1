@@ -1,0 +1,13 @@
+package replace;
+
+public class replace {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str="ja67745%$#@*v&&^%%#@a";
+		String str1=str.replaceAll("[!@#$%^&*]", "");
+		System.out.println(str1);
+
+	}
+
+}

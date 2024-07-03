@@ -1,0 +1,17 @@
+package pro;
+
+public class swap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=10;
+		int b=30;
+		b=b-(a+a);
+		a=a+b+b;
+		
+		System.out.println("the value of a is "+a);
+		System.out.println("the value of b is "+b);
+
+	}
+
+}
